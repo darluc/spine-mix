@@ -1,0 +1,6 @@
+{
+  "name":"spine-mix-match-playground","private":true,"version":"1.0.0","type":"module",
+  "scripts":{"assets":"node scripts/fetch-assets.mjs","dev":"npm run assets && vite","build":"npm run assets && vite build","preview":"vite preview"},
+  "dependencies":{"@esotericsoftware/spine-pixi-v8":"4.3.13","pixi.js":"8.16.0"},
+  "devDependencies":{"vite":"^7.1.7"}
+}
